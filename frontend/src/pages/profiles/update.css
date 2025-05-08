@@ -13,7 +13,7 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    padding: 20px;
+    padding: 17px;
     margin: 150px;
 }
 .profile-update-outer img{
@@ -75,7 +75,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
-    font-size: 16px;
+    font-size: 15px;
 }
 .profile-update-inner button{
     padding: 10px 20px;
@@ -84,10 +84,40 @@
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .profile-inner button:hover{
     background-color: #f7f8fa;
     color: black;
     border:2px solid #dbb13c;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+margin : 20px
+border : 2px sloid black
+*/

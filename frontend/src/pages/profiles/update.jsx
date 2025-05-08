@@ -7,40 +7,57 @@ import { SERVER_URL } from '../../../globals.js'
 import { assets } from '../../assets/assets.js'
 
 const Update = () => {
+
   const [email, setEmail] = useState("")
+
   const [name, setName] = useState("")
+
   const [loading, setLoading] = useState(false)
+
   const { token } = useContext(StoreContext)
+
   const navigate = useNavigate()
 
   useEffect(() => {
+
     if (!token) return;
+
     const fetchDatafromBackend = async () => {
       setLoading(true)
+
       try {
         const { data } = await axios.post(`${SERVER_URL}/api/user/get-profile-by-token`, {
           token
         })
+
         setEmail(data.email)
         setName(data.name)
-      } catch (error) {
+
+      } 
+      catch (error) {
         alert(error)
-      } finally {
+      } 
+      finally {
         setLoading(false)
       }
     }
+
     fetchDatafromBackend()
   }, [token])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+
     try {
       await axios.post(`${SERVER_URL}/api/user/update`, {
         name, email
       })
+
       alert("Profile updated")
       navigate('/profiles')
-    } catch (error) {
+
+    } 
+    catch (error) {
       alert(error)
     }
   }
@@ -74,5 +91,10 @@ const Update = () => {
     </>
   )
 }
+
+
+
+
+
 
 export default Update
