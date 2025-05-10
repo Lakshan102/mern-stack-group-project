@@ -1,4 +1,5 @@
 
+
 import Sidebar from './components/sidebar/sidebar.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Add from './pages/Add/add.jsx'
@@ -9,6 +10,9 @@ import AddIngredients from './pages/addIngredients/addIngredients.jsx'
 import ListIngredients from './pages/listIngredients/listIngredients.jsx'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Navbar from './components/navbar/navbar.jsx'
+
+
 
 const App = () => {
   const url = "http://localhost:4000"

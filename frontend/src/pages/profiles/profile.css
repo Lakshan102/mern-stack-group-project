@@ -1,0 +1,103 @@
+.profile{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    height: max(75vh, 200px);
+    background-color: #f1f1f1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profile-inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    padding: 17px;
+    margin: 0 auto;
+    gap: 25px;
+}
+.profile-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #f3ca44;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 17px;
+    margin: 0 auto;
+}
+.profile-left img{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+.profile-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 0 auto;
+}
+.profile-inner h2{
+    font-size: 24px;
+    color: #333;
+    padding: 20px;
+}
+.profile-inner button{
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    width: 100%;
+    background-color: #f3ca44;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.profile-inner .delete{
+    background-color: #f00;
+}
+.profile-inner .delete:hover{
+    border: #f00 2px solid;
+}
+.profile-inner button:hover{
+    background-color: #f7f8fa;
+    color: black;
+    border:2px solid #f3ca44;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+margin : 20px
+border : 2px sloid black
+
+*/
