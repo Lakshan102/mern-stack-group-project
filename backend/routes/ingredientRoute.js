@@ -1,5 +1,5 @@
 import express from "express"
-import { addIngredient, listIngredient, removeIngredient, reduceQuantity, addQuantity } from "../controllers/ingredientsController.js";
+import { addIngredient, listIngredient, removeIngredient, reduceQuantity, addQuantity } from "../controllers/IngredientsController.js";
 import multer from "multer"
 
 const ingredientRouter = express.Router();
