@@ -1,28 +1,3 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 # Dependency directories
 node_modules/
 .pnp/
@@ -51,12 +26,16 @@ public/
 build/
 
 # Nuxt.js
-.nuxt//home/kavindu/Documents/mern-stack-group-project/backend
+.nuxt/
 dist/
 
 # Vue.js
+dist/
 
 # Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Environment variables
 .env
@@ -66,12 +45,17 @@ dist/
 .env.production.local
 
 # MacOS files
+.DS_Store
 
 # VS Code files
 .vscode/
 
 # IDE files
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
 # Temporary files
 *.swp
