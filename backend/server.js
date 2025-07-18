@@ -8,6 +8,7 @@ import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
 import chefRouter from "./routes/chefRoute.js"
 import ingredientRouter from "./routes/ingredientRoute.js"
+import mongoose from "mongoose";
 
 
 
